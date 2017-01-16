@@ -1,5 +1,4 @@
-Name: Deyu Ma
-Loginid: deyuma
+Name: UniverseWanderer
 CSCI 455 PA5
 Fall 2016
 
