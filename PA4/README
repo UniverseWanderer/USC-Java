@@ -1,0 +1,66 @@
+Name: Deyu Ma
+USC loginid: 5378570180
+CSCI 455 PA4
+Spring 2016
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+DM
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+No
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+No
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+
+Three classes are created: GenText, Prefix, RandomTextGenerator
+Prefix.java
+This class represents the structure of prefix. It contains an arraylist
+which is the prefix strings and a prefix length to indicate the order of
+the Markov method. It overrides several methods in order to be as the
+Key of HashMap.
+
+RandomTextGenerator.java
+This class is a generator, initiated by an input file and specific order of
+the Markov method. Then we create a Markov Map to store the prefix and successor
+information of file. Also it has a method to generate the next word based on
+current prefix and the Markov Map. The Markov Map is a HashMap with Key of 
+Prefix class and Value of ArrayList<String> class.
+
+GenText.java
+This class contains the main function. It obtains the input parameter and 
+also has error-checking function toward the inputs. It reads input from 
+file and generates several words and writes to an output file.
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+Have a nice day!
+
+
+
+
+
