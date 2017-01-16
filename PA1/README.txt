@@ -1,5 +1,4 @@
-Name: Deyu Ma
-USC loginid: deyuma@usc.edu
+Name: UniverseWanderer
 CSCI 455 PA1
 Fall 2016
 
